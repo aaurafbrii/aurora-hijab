@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Hijab Online</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #333;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ec4074;
+            color: #fff;
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        #nav {
+            display: flex;
+        }
+
+        .nav-item {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            color: #f48fb1;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 60px 20px;
+            color: #333;
+            background-color: #f9bec7;
+        }
+
+        #hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        #hero p {
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        #main-content {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        #about {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        #about h2 {
+            text-align: center;
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        #bestsellers {
+            margin-top: 40px;
+        }
+
+        #bestsellers h2 {
+            font-size: 1.8em;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .hijab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .hijab-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .hijab-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .hijab-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .hijab-tipe {
+            font-style: italic;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .hijab-price {
+            font-weight: bold;
+            color: #f06292;
+            margin-top: 10px;
+        }
+
+        #footer {
+            background-color: #ec4074;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        #footer p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+     
+    <div id="header">
+        <div id="logo">Toko Hijab Online</div>
+        <div id="nav">
+            <span class="nav-item">Beranda</span>
+            <span class="nav-item">Tentang Kami</span>
+            <span class="nav-item">Hijab Terlaris</span>
+            <span class="nav-item">Kontak</span>
+        </div>
+    </div>
+
+    <div id="hero">
+        <h1>Selamat Datang di Toko Aurora Hijab</h1>
+        <p>Jelajahi koleksi hijab kami yang beragam dan temukan hijab favoritmu di sini!</p>
+    </div>
+
+    <div id="main-content">
+        <div id="about">
+            <h2>Tentang Kami</h2>
+            <p>Selamat datang di Toko Aurora Hijab!</p>
+            <p>Kami lebih dari sekadar toko hijab, kami menyediakan pengalaman berbelanja yang nyaman dan penuh inspirasi bagi para pecinta fashion hijab. Koleksi kami mencakup berbagai jenis hijab, mulai dari jilbab segi empat, pashmina, hingga hijab instan.</p>
+            <p>Kami percaya bahwa hijab adalah bagian penting dari identitas dan ekspresi diri. Karena itu, kami menghadirkan pilihan hijab terbaik dari desainer lokal yang cocok untuk segala gaya dan kesempatan.</p>
+            <p>Nikmati navigasi yang mudah di situs kami, informasi lengkap tentang setiap produk, serta pengiriman cepat ke seluruh Indonesia. Kami juga menyediakan diskon menarik dan koleksi eksklusif yang tidak boleh Anda lewatkan. Selamat mencari hijab favorit Anda dan selamat berfashion!</p>
+        </div>
+
+        <div id="bestsellers">
+            <h2>Hijab Terlaris</h2>
+            <div class="hijab-grid">
+                <div class="hijab-item">
+                    <h3 class="hijab-title">Pashmina</h3>
+                    <p><img src="ceruty baby doll.jpeg" width=200 height=200 alt="ceruty baby doll"></p>
+                    <p class="hijab-tipe">Pashmina Ceruty Baby Doll</p>
+                    <span class="hijab-price">Rp 35.000</span>
+                </div>
+                <div class="hijab-item">
+                    <h3 class="hijab-title">Hijab Segi Empat</h3>
+                    <p><img src="hijab paris.jpeg" width=200 height=200 alt="ceruty baby doll"></p>
+                    <p class="hijab-tipe">Paris</p>
+                    <span class="hijab-price">Rp 20.000</span>
+                </div>
+                <div class="hijab-item">
+                    <h3 class="hijab-title">Hijab Instan</h3>
+                    <p><img src="hijab sport.jpeg" width=200 height=200 alt="ceruty baby doll"></p>
+                    <p class="hijab-tipe">Hijab Sport</p>
+                    <span class="hijab-price">Rp 25.000</span>
+                </div>
+                <div class="hijab-item">
+                    <h3 class="hijab-title">Dalaman Hijab</h3>
+                    <p><img src="Ciput Kaos Basic Rayon.jpeg" width=200 height=200 alt="ceruty baby doll"></p>
+                    <p class="hijab-tipe">Ciput Kaos Rayon</p>
+                    <span class="hijab-price">Rp 15.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 Toko Hijab Online.</p>
+        <p>Kontak: (081) 234-5678 | Email: aurora@hijabonline.com</p>
+    </div>
+</body>
+</html>
